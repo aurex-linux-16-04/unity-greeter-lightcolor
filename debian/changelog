@@ -1,3 +1,9 @@
+unity-greeter-lightcolor (16.04.2-0ubuntu1+light.color.patch) xenial; urgency=medium
+
+  * Applied 10-light-color.patch
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 03 Sep 2016 19:04:50 +0200
+
 unity-greeter (16.04.2-0ubuntu1) xenial; urgency=medium
 
   * New upstream release:

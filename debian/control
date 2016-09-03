@@ -1,4 +1,4 @@
-Source: unity-greeter
+Source: unity-greeter-lightcolor
 Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -27,7 +27,7 @@ Homepage: https://launchpad.net/unity-greeter
 # again.
 Vcs-Bzr: https://code.launchpad.net/~unity-greeter-team/unity-greeter/trunk
 
-Package: unity-greeter
+Package: unity-greeter-lightcolor
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
@@ -44,7 +44,9 @@ Recommends: unity-settings-daemon,
 Suggests: lightdm-remote-session-freerdp,
           lightdm-remote-session-uccsconfigure,
           remote-login-service,
-Provides: lightdm-greeter
+Provides: lightdm-greeter, unity-greeter
+Conflicts: unity-greeter
+Replaces: unity-greeter
 Breaks: edubuntu-artwork (<< 12.01.1~)
-Description: Unity Greeter
- The greeter for the Unity desktop.
+Description: Unity Greeter light color mod
+ Alternative greeter for the Unity desktop with support for light colors background.
