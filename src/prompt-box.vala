@@ -229,7 +229,7 @@ public class PromptBox : FadableBox
 
         small_name_label = new FadingLabel ("");
         small_name_label.override_font (Pango.FontDescription.from_string ("Ubuntu 13"));
-        small_name_label.override_color (Gtk.StateFlags.NORMAL, { 1.0f, 1.0f, 1.0f, 1.0f });
+        small_name_label.override_color (Gtk.StateFlags.NORMAL, { 0.0f, 0.0f, 0.0f, 1.0f });
         small_name_label.yalign = 0.5f;
         small_name_label.xalign = 0.0f;
         small_name_label.margin_left = 2;
